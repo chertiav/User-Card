@@ -1,0 +1,53 @@
+body {
+    background: teal;
+}
+
+.container {
+    /* задаем границу */
+    border: 1px solid black;
+    /* сркуленные кроя */
+    border-radius: 10px;
+    /* задаем ширину */
+    width: 35%;
+    /* задаем макс и мин размеры */
+    max-width: 350px;
+    min-width: 300px;
+    /* задаем высоту */
+    max-height: 450px;    
+    min-height: 400px;
+}
+
+.img-container {
+    /* чтобы не переполнялся контейнер */
+    overflow: hidden;
+    width: 180px;
+    height: 180px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.img-container>img{
+    /* подгоняем картинку под размеры */
+    object-fit: cover;
+    object-position: 50% 50%;
+    /* width: 95%; */
+    /* height: 95%; */
+    /* border: 1px solid black; */
+    /* border-radius: 50%; */
+
+}
+
+.text-header{
+    font-style: 35px;
+    text-align: center;
+}
+
+.user-card {
+    /* размеры % от родителя */
+    width: 100%;
+    height: 80%;
+    /* заливка фона */
+    background-color: #fff;
+}
+
